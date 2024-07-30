@@ -1,0 +1,85 @@
+body {
+    background-color: #add8e6;
+    color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    color: #000080;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3em;
+}
+
+nav a {
+    color: #000080;
+    font-size: 1.5em;
+}
+
+#tips h2, #form h2 {
+    color: #000080;
+    font-size: 2.5em;
+}
+
+#tips p, #form p {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+#tips ol {
+    font-size: 1.5em;
+}
+
+#form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.error {
+    color: red;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+#game {
+    text-align: center;
+    margin: 50px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #000080;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+#startButton:hover {
+    background-color: #00004d;
+}
+
+#gameStatus {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .custom-input {
+        max-width: 100%;
+    }
+}
